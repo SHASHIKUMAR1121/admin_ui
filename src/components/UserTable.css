@@ -1,0 +1,32 @@
+.user-table .edit-btn,
+.user-table .delete-btn,
+.user-table .save-btn,
+.user-table .cancel-btn {
+  background-color:rgb(89, 218, 151);
+  border: none;
+  color: white;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.user-table .delete-btn {
+  background-color:orangered;
+}
+
+.user-table .save-btn,
+.user-table .cancel-button {
+  background-color: #2196f3;
+}
+
+.user-table .edit-btn:hover,
+.user-table .delete-btn:hover,
+.user-table .save-btn:hover,
+.user-table .cancel-btn:hover {
+  opacity: 0.8;
+}
